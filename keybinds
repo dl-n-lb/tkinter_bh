@@ -1,0 +1,7 @@
+moveUp w
+moveDown s
+moveLeft a
+moveRight d
+focus shift_l
+cheat k
+boss b
