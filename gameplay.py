@@ -167,7 +167,7 @@ class GamePlay:
             self.p.draw(cv)
             
             if self.level.update():
-                spx = random.randint(self.dims.x + 100, self.dims.x + self.dims.w - 100)
+                spx = random.randint(int(self.dims.x + 100), int(self.dims.x + self.dims.w - 100))
                 spy = random.randint(0, 200) # TODO: hardcoded
                 t_ang = math.atan2(self.p.y - spy, self.p.x - spx)
                 
